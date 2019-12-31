@@ -60,7 +60,7 @@
 
     <plugins>
         <!-- SQL拦截器 -->
-        <plugin interceptor="com.sky.bluesky.mybatis.SQLMonitorPlugin"/>
+        <plugin interceptor="com.algebra.drools.mybatis.SQLMonitorPlugin"/>
 
         <!-- com.github.pagehelper为PageHelper类所在包名 -->
         <plugin interceptor="com.github.pagehelper.PageHelper">

@@ -29,8 +29,8 @@ CREATE TABLE IF NOT EXISTS `rule_action_info` (
 -- 正在导出表  bluesky.rule_action_info 的数据：~2 rows (大约)
 /*!40000 ALTER TABLE `rule_action_info` DISABLE KEYS */;
 INSERT INTO `rule_action_info` (`ACTION_ID`, `ACTION_TYPE`, `ACTION_NAME`, `ACTION_DESC`, `ACTION_CLASS`, `IS_EFFECT`, `CRE_USER_ID`, `CRE_TIME`, `REMARK`) VALUES
-	(1, 1, '测试实现类', '测试实现类', 'com.sky.bluesky.service.impl.action.TestActionImpl', 1, 1, '2017-07-24 17:12:32', NULL),
-	(2, 2, '自身', '测试自身', 'com.sky.bluesky.model.fact.TestRule', 1, 1, '2017-07-27 10:07:03', NULL);
+	(1, 1, '测试实现类', '测试实现类', 'TestActionImpl', 1, 1, '2017-07-24 17:12:32', NULL),
+	(2, 2, '自身', '测试自身', 'TestRule', 1, 1, '2017-07-27 10:07:03', NULL);
 /*!40000 ALTER TABLE `rule_action_info` ENABLE KEYS */;
 
 
@@ -146,7 +146,7 @@ CREATE TABLE IF NOT EXISTS `rule_entity_info` (
 -- 正在导出表  bluesky.rule_entity_info 的数据：~1 rows (大约)
 /*!40000 ALTER TABLE `rule_entity_info` DISABLE KEYS */;
 INSERT INTO `rule_entity_info` (`ENTITY_ID`, `ENTITY_NAME`, `ENTITY_DESC`, `ENTITY_IDENTIFY`, `PKG_NAME`, `CRE_USER_ID`, `CRE_TIME`, `IS_EFFECT`, `REMARK`) VALUES
-	(1, '测试规则', '测试规则引擎', 'testRule', 'com.sky.bluesky.model.fact.TestRule', 1, '2017-07-20 11:41:32', 1, NULL);
+	(1, '测试规则', '测试规则引擎', 'testRule', 'TestRule', 1, '2017-07-20 11:41:32', 1, NULL);
 /*!40000 ALTER TABLE `rule_entity_info` ENABLE KEYS */;
 
 
